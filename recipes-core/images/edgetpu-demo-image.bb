@@ -14,4 +14,4 @@ IMAGE_INSTALL += "\
     gdbserver \
     "
 
-IMAGE_INSTALL += "python3-edgetpu"
+IMAGE_INSTALL += "python3-edgetpu tensorflow-lite"
