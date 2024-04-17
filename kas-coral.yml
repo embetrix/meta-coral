@@ -3,7 +3,7 @@ header:
 machine: coral-dev
 distro: poky
 target:
-  - core-image-base
+  - edgetpu-demo-image
 repos:
   # This repo contains the kas-coral.yml file - there is no need to fetch it again.
   # It's current revision will be used to perform the build.
