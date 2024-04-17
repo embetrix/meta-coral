@@ -32,6 +32,10 @@ repos:
     url: "https://git.yoctoproject.org/git/meta-freescale.git"
     refspec: scarthgap
     path: "layers/meta-freescale"
+  meta-tensorflow:
+    url: "https://git.yoctoproject.org/git/meta-tensorflow.git"
+    refspec: master
+    path: "layers/meta-tensorflow"
   meta-clang:
     url: "https://github.com/kraj/meta-clang.git"
     refspec: master
