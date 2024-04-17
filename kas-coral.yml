@@ -40,6 +40,8 @@ local_conf_header:
   standard: |
     CONF_VERSION = "2"
     INHERIT += "rm_work"
+    DISTRO_FEATURES += "systemd usrmerge wifi"
+    VIRTUAL-RUNTIME_init_manager = "systemd"
   debug-tweaks: |
     EXTRA_IMAGE_FEATURES = "debug-tweaks"
   sdk: |
